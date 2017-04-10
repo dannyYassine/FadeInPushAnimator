@@ -15,6 +15,7 @@
 		B5AEA5DA1E9B0496000C6322 /* FadeInNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEA5D91E9B0496000C6322 /* FadeInNavigationController.swift */; };
 		B5AEA5DC1E9B04D5000C6322 /* FadeInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEA5DB1E9B04D5000C6322 /* FadeInController.swift */; };
 		B5AEA5DE1E9B060F000C6322 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEA5DD1E9B060F000C6322 /* BaseViewController.swift */; };
+		B5AEA5E01E9B0E66000C6322 /* FadeInTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEA5DF1E9B0E66000C6322 /* FadeInTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B5AEA5D91E9B0496000C6322 /* FadeInNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInNavigationController.swift; sourceTree = "<group>"; };
 		B5AEA5DB1E9B04D5000C6322 /* FadeInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInController.swift; sourceTree = "<group>"; };
 		B5AEA5DD1E9B060F000C6322 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B5AEA5DF1E9B0E66000C6322 /* FadeInTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				B5AEA5D91E9B0496000C6322 /* FadeInNavigationController.swift */,
 				B5AEA5DB1E9B04D5000C6322 /* FadeInController.swift */,
 				B5AEA5DD1E9B060F000C6322 /* BaseViewController.swift */,
+				B5AEA5DF1E9B0E66000C6322 /* FadeInTabBarController.swift */,
 			);
 			path = FadeInPush;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				B5AEA5DC1E9B04D5000C6322 /* FadeInController.swift in Sources */,
 				B5AEA5DA1E9B0496000C6322 /* FadeInNavigationController.swift in Sources */,
+				B5AEA5E01E9B0E66000C6322 /* FadeInTabBarController.swift in Sources */,
 				B5AEA5C81E9B0410000C6322 /* ViewController.swift in Sources */,
 				B5AEA5D81E9B046C000C6322 /* FadeInPushAnimator.swift in Sources */,
 				B5AEA5C61E9B0410000C6322 /* AppDelegate.swift in Sources */,

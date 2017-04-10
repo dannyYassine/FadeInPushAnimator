@@ -20,7 +20,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let fadeInNavigationController = FadeInNavigationController(rootViewController: ViewController())
         fadeInNavigationController.delegate = fadeIn
-        self.window?.rootViewController = fadeInNavigationController
+        
+        let fadeInTabBarController = FadeInTabBarController()
+        fadeInTabBarController.delegate = fadeIn
+        
+        let fadeInNavigationController1 = FadeInNavigationController(rootViewController: ViewController())
+        fadeInNavigationController1.delegate = fadeIn
+        fadeInNavigationController1.title = "FIRST"
+        let fadeInNavigationController2 = FadeInNavigationController(rootViewController: ViewController())
+        fadeInNavigationController2.delegate = fadeIn
+        fadeInNavigationController2.title = "SECOND"
+        
+        fadeInTabBarController.setViewControllers([fadeInNavigationController1, fadeInNavigationController2], animated: false)
+        
+        self.window?.rootViewController = fadeInTabBarController
         self.window?.makeKeyAndVisible()
         
         return true

@@ -26,3 +26,9 @@ extension FadeInController: UINavigationControllerDelegate {
         
     }
 }
+
+extension FadeInController: UITabBarControllerDelegate {
+    func tabBarController(_ tabBarController: UITabBarController, animationControllerForTransitionFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return FadeInPushAnimator()
+    }
+}
