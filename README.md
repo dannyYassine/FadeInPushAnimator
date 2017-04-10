@@ -3,6 +3,7 @@
 ##### (Inspired by AirBnB)
 
 ![](https://raw.githubusercontent.com/dannyYassine/FadeInPushAnimator/master/save_gif.gif)
+![](https://raw.githubusercontent.com/dannyYassine/FadeInPushAnimator/master/tab_bar.gif)
 
 # UINavigationController Setup
 
